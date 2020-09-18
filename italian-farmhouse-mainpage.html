@@ -1,0 +1,467 @@
+
+<!doctype html>
+<html>
+	<head>
+	
+		<meta charset="UTF-8">
+		<title>The Italian Farmhouse</title>
+	
+		<link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+		
+		<style>
+		
+			#gray-header {
+			
+				
+				float:right;
+				background-color: #ecebe7;
+				padding:0;
+				margin:0;
+				width:1500px;
+				height:45px;
+				overflow:hidden;
+				
+			}
+			.cabin {
+			
+				font-family: 'Cabin', sans-serif;
+				font-weight:normal;
+				overflow:hidden;
+				
+				
+			}
+			
+			body {
+			
+			margin:0;
+			padding:0;
+			
+			}
+			
+
+			
+			.topbar-divider {
+			
+				border-left: 0.5px #1F1F1F ridge;
+				margin:2px;
+				padding:2px;
+				overflow:hidden;
+				z-index:-1000;
+
+			}
+			
+			#topbar-divider-right {
+			
+				border-right: 0.5px #1F1F1F ridge;
+				margin:2px;
+				padding:2px;
+				overflow:hidden;
+				z-index:-1000;
+				
+			}
+		
+			
+			#logo {
+			
+				font-family: 'Domine', serif;
+				font-size: 47px;
+				float:left;
+				margin-top:-85px;
+				margin-left:75px;
+				color:#C85432;
+				
+				
+			}
+			
+			
+			.directions {
+			
+				color:black;
+				z-index:auto;
+				overflow:hidden
+			}
+			
+			.directions:visited {
+			
+				color:black;
+			
+			}
+			
+			.directions:hover {
+			
+				color:#a7a764 !important;
+			
+			}
+			
+			
+			#information-header {
+			
+				float:right;
+				font-size: 14px;
+				margin-top:15px;
+				margin-right:125px;
+				
+				
+			}
+			
+			.main-header {
+			
+				position:relative;
+				left: 625px;
+				top:40px;
+				margin:0;
+				padding:0;
+			
+			}
+			
+			#book-a-table-settings {
+			
+				font-size:16px;
+				position:relative;
+				bottom:7px;
+				right:17px;
+				width:117px;
+				padding:3px 17px 5px 17px; 
+				background:#a7a764;
+				letter-spacing:1px;
+				overflow:hidden;
+				
+				
+			}
+			
+			#book-a-table-link {
+			
+				color:black;
+				text-decoration:none;
+			
+			}
+			
+			#book-a-table-settings:hover {
+			
+				background:#C5C574;
+			
+			}
+			
+			#menu-tab {
+			
+				position:relative;
+				right:108px;
+				top:9px;
+				text-decoration:none;
+				letter-spacing:1px;
+				font-size:16px;
+				z-index:auto;
+				overflow:hidden;
+				
+			}
+			
+			.clear {
+			
+				clear:both;
+			
+			}
+			
+			.header-tab {
+			
+				color:black;
+				text-decoration:none;
+				
+			}
+			
+			.header-tab:visited {
+			
+				color:black;
+			
+			}
+			
+			.header-tab:hover {
+			
+				color:#a7a764;
+			
+			}
+			
+			#private-dining {
+			
+				position:relative;
+				right:30px;
+				top:-10px;
+				z-index:auto;
+				overflow:hidden;
+				letter-spacing:1px;
+			}
+			
+			#gallery {
+			
+				position:relative;
+				left:118px;
+				top:-29px;
+				z-index:auto;
+				overflow:hidden;
+				letter-spacing:1px;
+			}
+			
+			#location {
+			
+				position:relative;
+				left:210px;
+				top:-49px;
+				z-index:auto;
+				overflow:hidden;
+				letter-spacing:1px;
+			}
+			
+			a {
+			
+				color:black;
+				
+			
+			}
+			
+			a:visited {
+			
+				color:black;
+			
+			}
+			
+			a:hover{
+			
+				color:#a7a764;
+			
+			}
+			
+			#main-picture {
+			
+				position:relative;
+				bottom:189px;
+				z-index:-9999;
+				width:100%;
+				height:595px;
+				object-fit:cover;
+				object-position:50% 50%;
+			}
+			
+			#introduction-background {
+			
+				float:left;
+				position:relative;
+				bottom:193px;
+				background-color:#ecebe7;
+				height:850px;
+				width:1263px;
+				padding:0;
+				margin:0;
+				z-index:1;
+				overflow:hidden;
+			
+			}
+			
+			#introduction-heading {
+			
+				float:right;
+				position:relative;
+				font-size:24px;
+				margin-right:80px;
+				margin-top:25px;
+				letter-spacing:1px;
+				font-family: 'Crimson Text', serif;
+			}
+			
+			#dining-room-picture {
+				
+				float:left;
+				position:relative;
+				margin-top:-445px;
+				margin-left:60px;
+				width:60%;
+				height:480px;
+				object-fit:cover;
+				object-position:50% 50%;
+			
+			}
+			
+			#introduction-paragraph {
+			
+				float:right;
+				position:relative;
+				top:161px;
+				left:346px;
+				font-family: 'Crimson text', serif;
+				font-size:20px;
+				width:346px;
+				margin:0;
+				padding:0;
+				background-color:#ecebe7;
+				text-align:left;
+				letter-spacing:0.25px;
+				z-index:-9999;
+				
+			}
+			
+			#footer-background {
+			
+				float:left;
+				background-color:#24221F;
+				height:450px;
+				width:1263px;
+				padding:0;
+				margin:0;
+				z-index:-9999;
+				overflow:hidden;
+				position:relative;
+				bottom:193px;
+				
+			}
+			
+			.footer-heading {
+			
+				color:#FFFFFF;
+				letter-spacing:2px;
+				font-size:17px;
+			
+			}
+			
+			.footer-text {
+			
+				
+				font-family:'Crimson text', serif;
+				letter-spacing:0.25px;
+				color:white;
+			
+			}
+						
+			#location-and-contact {
+			
+				margin-left:70px;
+				margin-top:70px;
+				font-weight:100;
+			}
+			
+			#contact-information {
+			
+				
+				text-align:left;
+				width:350px;
+				position:relative;
+				top:23px;
+				left:71px;
+				line-height:150%;
+				font-size:18px;
+				
+				
+			}
+			
+			.white-link {
+			
+				color:white;
+			
+			}
+			
+			.white-link:visited {
+			
+				color:white;
+							
+			}
+			
+			.white-link:hover {
+			
+				color:#a7a764;
+				
+			}
+			
+			#opening-hours {
+			
+				font-weight:100;
+				position:relative;
+				left:478px;
+				top:-216px;
+			
+			}
+			
+			#weekdays-information {
+			
+				width:300px;
+				font-size:17px;
+				line-height:200%;
+				position:relative;
+				left:477px;
+				bottom:200px;
+				
+			}
+			
+			#hours-information {
+				
+				align:left;
+				width:300px;
+				font-size:17px;
+				line-height:200%;
+				position:relative;
+				bottom:438px;
+				left:600px;
+				
+			}
+		</style>
+	
+	</head>
+	<body>
+	
+		<div id="gray-header">
+		
+			 <div id="information-header" class="cabin">20 Balsam Ave. P.O.B. 1094 Bragg Creek, AB <a class="topbar-divider" href="https://www.google.com/">Get directions</a><a id="topbar-divider-right" class="topbar-divider directions" href="info@theitalianfarmhouse.ca">info@theitalianfarmhouse.ca</a> (403) 949-2750 </div>
+	
+		</div>
+		
+		<div>			
+		
+			<div class="main-header">
+				<div class="clear"></div>
+				<div class="cabin" id="book-a-table-settings"><a id="book-a-table-link" href="https://www.google.com/">BOOK A TABLE</a></div> 
+				
+			</div>
+			
+			<div id="logo">
+		
+				<h1>the<br>italian farmhouse</h1>
+		
+			</div>
+			
+			<div class="cabin" id="menu-tab"><a class="header-tab" href="https://www.google.com/">MENU</a></div>
+			
+			<div class="cabin" id="private-dining"><a class="header-tab" href="https://www.google.com/">PRIVATE DINING</a></div>
+			
+			<div class="cabin" id="gallery"><a class="header-tab" href="https://www.google.com/">GALLERY</a></div>
+			
+			<div class="cabin" id="location"><a class="header-tab" href="https://www.google.com/">LOCATION</a></div>
+			
+			<div><img  id="main-picture" src="images/lamb.jpg"></img></div>
+			
+			<div id="introduction-background">
+			
+				<div id="introduction-heading"><h2>Introducing the Italian<br>Farmhouse</h2></div>
+			
+				<div id="introduction-paragraph"><p>This little spot in the trees warms people’s hearts. It draws those who love food, comfort, the warmth of hospitality & a celebration of flavours. The visit is memorable. Meals are notably good, seasonal, hand crafted & made with love by those who truly care.<br>Each day begins anew with the gratitude for our guests, for the opportunity & for the fun we have along the way. . . just being a part of something truly magical. We are country folk, enjoying country food & friendship, with Italian passion. Cheers! Or really, Cin Cin!</p><p>Where conversations always end in Mmmmmmmm. . .</p></div>
+			
+				<div><img id="dining-room-picture" src="images/dining-room.jpg"></img></div>
+				
+			</div>
+			
+			<div id="footer-background">
+			
+				<div class="cabin footer-heading" id="location-and-contact">LOCATION & CONTACT</div>
+				
+				<div  class="footer-text" id="contact-information">20 Balsam Ave. P.O.B. 1094<br>Bragg Creek, AB<br>T0L 0K0<br><a class="white-link" href="">Get Directions</a><p><a class="white-link" href="">info@theitalianfarmhouse.ca</a><br>(403) 949-2750</p></div>
+			
+				<div class="cabin footer-heading" id="opening-hours">OPENING HOURS</div>
+				
+				<div class="footer-text" id="weekdays-information">Monday<br>Tuesday<br>Wednesday<br>Thursday<br>Friday<br>Saturday<br>Sunday</div>
+				
+				<div class="footer-text" id="hours-information">11:00 a.m. - 9:00 p.m.<br>11:00 a.m. - 9:00 p.m.<br>11:00 a.m. - 9:00 p.m.<br>11:00 a.m. - 9:00 p.m.<br>11:00 a.m. - 9:00 p.m.<br>11:00 a.m. - 9:00 p.m.<br>11:00 a.m. - 9:00 p.m.<br></div>
+			</div>
+			
+		</div>
+	
+	</body>
+
+
+</html>
